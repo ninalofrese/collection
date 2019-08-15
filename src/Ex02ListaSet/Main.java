@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-
+        //A ArrayList não repete e considera a ordem de add.
         List<Integer> lista = new ArrayList<>();
 
         lista.add(1);
@@ -23,7 +23,7 @@ public class Main {
         for(Integer valor :lista){
             System.out.println(valor);
         }
-
+        //O HashSet ignora itens que repetem valores e não leva a ordem em consideração, podendo gerar listas aleatórias
         Set<Integer> conjunto = new HashSet<>();
 
         conjunto.add(1);

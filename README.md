@@ -4,7 +4,7 @@
 
 ### Hashset
 
-- Lista itens que não podem ser iguais, não podem repetir
+- Ignora itens que são iguais, ou seja, não repetem
 - não grava ordem, é aleatória (pode usar um compare())
 
 ```
